@@ -1,11 +1,12 @@
 .recipe-image {
-  max-width: 400px;
-  width: 90%;
+  /* Display at 30% width while keeping aspect ratio */
+  width: 30%;
+  max-width: none;
   height: auto;
   display: block;
   margin: 0.6rem auto;
   border-radius: 6px;
-}
+  transform-origin: center;
 
 /* Optional: small global improvements */
 body {

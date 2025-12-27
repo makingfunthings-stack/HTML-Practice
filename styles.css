@@ -1,0 +1,19 @@
+.recipe-image {
+  max-width: 400px;
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 0.6rem auto;
+  border-radius: 6px;
+}
+
+/* Optional: small global improvements */
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  line-height: 1.5;
+  padding: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1, h2 { color: #333; }
